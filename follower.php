@@ -61,7 +61,7 @@
 			echo "<div class= 'w3-margin'>";
 				echo "<img src=$profilepic style='vertical-align:middle;' title='Profile Picture'>";
 				echo "<span style='padding-left:10px;'>Name: ".$name." | Screen Name: ".$screenname." | ";
-				?><a id="demo" href="tweet.php?type=follower&screenname=<?php echo $screenname;?>"><button class='w3-button w3-blue'>View Tweets</button></a><?php
+				?><a id="demo" href="#" onClick="submitform('<?php echo $screenname;?>')"><button class='w3-button w3-blue'>View Tweets</button></a><?php
 			echo "</span></div><hr>";
 		}
 	}
