@@ -1,4 +1,4 @@
-# TweetTimeline
+# Twitter Timeline
 
 Part-1: User Timeline
 
